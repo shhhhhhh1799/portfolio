@@ -117,3 +117,7 @@ project_root/
 🧑‍🏫 교육 플랫폼과의 연동 (예: LMS 시스템, 문제은행 자동 분석 등)
 
 🗣️ 다국어 음성 안내 지원 (영어/한국어/일본어 등)
+
+## 📹 시연 영상  
+👉 [블로그에서 시연 영상 보기](https://blog.naver.com/PostView.naver?blogId=sssssssh17&Redirect=View&logNo=223931109704&categoryNo=1&isAfterWrite=true&isMrblogPost=false&isHappyBeanLeverage=true&contentLength=10476)
+
