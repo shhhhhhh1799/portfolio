@@ -121,8 +121,6 @@ module top_dht11_uart(
     );
 endmodule
 
-`timescale 1ns / 1ps
-
 module dht11_controller (
     input clk,
     input rst,
@@ -378,8 +376,6 @@ module dht11_hex_to_ascii (
 
 endmodule
 
-`timescale 1ns / 1ps
-
 module uart_controller (
     input        clk,
     input        rst,
@@ -490,8 +486,6 @@ module uart_controller (
 
 endmodule
 
-`timescale 1ns / 1ps
-
 module fnd_controller (
     input clk,
     input rst,
@@ -555,7 +549,6 @@ module fnd_controller (
     );
 endmodule
 
-
 // ===== Clock Divider (e.g., 100MHz → ~500Hz) =====
 module clk_div_1 (
     input clk,
@@ -581,7 +574,6 @@ module clk_div_1 (
     end
 endmodule
 
-
 // ===== 4진 카운터 (0~3) =====
 module counter_4 (
     input clk,
@@ -599,7 +591,6 @@ module counter_4 (
     end
 endmodule
 
-
 // ===== 2-to-4 디코더 (공통 단자 선택) =====
 module decoder_2x4 (
     input [1:0] fnd_sel,
@@ -615,7 +606,6 @@ module decoder_2x4 (
         endcase
     end
 endmodule
-
 
 // ===== Digit 선택 MUX =====
 module MUX_4x1 (
@@ -635,7 +625,6 @@ module MUX_4x1 (
         endcase
     end
 endmodule
-
 
 // ===== BCD to 7-segment =====
 module BCD (
@@ -659,7 +648,6 @@ module BCD (
     end
 endmodule
 
-
 // ===== Digit Splitter =====
 module digit_splitter #(
     parameter BIT_WIDTH = 8
@@ -671,8 +659,6 @@ module digit_splitter #(
     assign disit_1 = time_data % 10;
     assign disit_10 = (time_data / 10) % 10;
 endmodule
-
-`timescale 1ns / 1ps
 
 module dht11_uart_sender (
     input clk,
@@ -742,8 +728,6 @@ module dht11_uart_sender (
     end
 
 endmodule
-
-`timescale 1ns / 1ps
 
 module btn_debounce #(
     parameter N = 8,
