@@ -154,3 +154,7 @@ Humi = 43%
 
 이를 통해 FSM 설계, 타이밍 제어, 시리얼 통신, 센서 연동 등에 대한 실습을 직접 수행할 수 있으며,  
 향후 **무선 통신, IoT 연동, OLED 디스플레이** 등의 확장 프로젝트로도 발전이 가능합니다.
+
+## 📹 시연 영상  
+👉 [블로그에서 시연 영상 보기](https://blog.naver.com/PostView.naver?blogId=sssssssh17&Redirect=View&logNo=223931104573&categoryNo=1&isAfterWrite=true&isMrblogPost=false&isHappyBeanLeverage=true&contentLength=3619)
+
