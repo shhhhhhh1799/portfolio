@@ -13,8 +13,7 @@
 
 # 🧮 AI 수학 튜터 시스템 (Mathtutor)
 
-카메라로 수식을 인식하고 계산한 뒤, LLM(Gemma)을 활용해 풀이 설명을 생성하고 음성으로 출력하는 AI 수학 튜터 시스템입니다.  
-수학 문제를 손으로 써서 보여주기만 하면 인식부터 음성 설명까지 한 번에 진행됩니다.
+손글씨 수학 문제를 카메라로 인식해 계산하고, LLM(Gemma)을 통해 풀이를 생성한 뒤 음성으로 설명해주는 AI 수학 튜터 시스템입니다.
 
 ---
 
@@ -51,30 +50,34 @@
 
 ---
 
-## 🚀 실행 흐름
-
-1. 사용자 입력 (이미지 or 음성)
-2. → Mathpix로 수식 인식
-3. → SymPy로 수식 분석 및 계산
-4. → Gemma LLM으로 풀이 설명 생성
-5. → gTTS + SRE로 음성 출력
-
----
-
 ## 📁 주요 파일 설명
 
-| 파일명 | 설명 |
-|--------|------|
-| `main.py` | 전체 시스템 통합 제어 |
-| `camera_capture.py` | 카메라 이미지 캡처 |
-| `ocr_mathpix.py` | 수식 이미지 → LaTeX 변환 |
-| `solver.py` | SymPy로 수식 계산 |
-| `explanation_llm.py` | Gemma로 풀이 문장 생성 |
-| `speech_output.py` | 음성 출력 처리 (gTTS + SRE) |
-| `whisper_input.py` | 음성 인식(STT) 처리 |
+| 파일명 | 역할 설명 |
+|--------|-----------|
+| `main.py` | 전체 파이프라인 제어 및 실행 메인 파일 |
+| `server.py` | Ollama 기반 Gemma LLM 서버 실행 파일 |
+| `sre.js` | LaTeX 수식 → 음성 변환용 SRE 스크립트 |
+| `capture.jpg` | 촬영된 수식 이미지 |
+| `recorded.wav` | 음성 녹음 파일 |
+| `transcript.txt` | Whisper로 인식한 명령어 텍스트 |
+| `gemma3_answer.txt` | Gemma가 생성한 풀이 결과 저장 |
+| `output_sre_gtts.mp3` | gTTS로 변환된 음성 설명 결과 |
+| `output_sre_gtts.txt` | 음성 출력용 텍스트 저장 파일 |
 
 ---
 
+## 🚀 실행 흐름
+
+1️⃣ 사용자 입력  
+  - 이미지 입력 (카메라 촬영)  
+  - 음성 명령 입력 (STT)
+
+2️⃣ 📸 Mathpix → 수식 LaTeX 추출  
+3️⃣ 🧮 SymPy → 계산 수행  
+4️⃣ 🤖 Gemma → 풀이 설명 생성  
+5️⃣ 🔈 gTTS + SRE → 음성 설명 출력
+
+---
 
 ## 🎓 학습 목표 및 성과
 
@@ -83,3 +86,18 @@
 - Raspberry Pi 기반 AI 응용 시스템 구축 경험
 
 ---
+
+## 📂 파일 구조
+
+```plaintext
+project_root/
+├── main.py
+├── server.py
+├── sre.js
+├── capture.jpg
+├── recorded.wav
+├── transcript.txt
+├── gemma3_answer.txt
+├── output_sre_gtts.mp3
+└── output_sre_gtts.txt
+```
