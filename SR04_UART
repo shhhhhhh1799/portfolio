@@ -157,7 +157,6 @@ module sr04_controller (
         .o_tick_1mhz(w_tick)
     );
 
-
 endmodule
 
 module high_level_detector (
