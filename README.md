@@ -54,3 +54,7 @@
 | `Draw_~` 함수들 | 그래픽 구성 요소 (드래곤, 적, 총알 등) |
 | `Check_Hits()` | 충돌 판정 및 점수/라이프 처리 |
 | `BGM_Process()` | 배경음악 타이밍 제어 및 재생 처리 |
+
+## 📹 게임 플레이 영상  
+👉 [블로그에서 게임 영상 보기](https://blog.naver.com/PostView.naver?blogId=sssssssh17&Redirect=View&logNo=223931100688&categoryNo=1&isAfterWrite=true&isMrblogPost=false&isHappyBeanLeverage=true&contentLength=3603)
+
