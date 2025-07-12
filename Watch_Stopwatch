@@ -82,8 +82,6 @@ module Top(
 endmodule
 
 // stopwatch.v
-`timescale 1ns / 1ps
-
 module stopwatch(
     input           clk,
     input           rst,
@@ -147,8 +145,6 @@ module stopwatch(
 endmodule
 
 // watch.v
-`timescale 1ns / 1ps
-
 module watch(
     input           clk,
     input           rst,
@@ -236,9 +232,6 @@ module watch(
     );
 
 endmodule
-
-// fnd_controller.v
-`timescale 1ns / 1ps
 
 module FND_Controller (
     input clk,
