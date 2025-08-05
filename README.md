@@ -1,29 +1,19 @@
-# 🧑‍💻 박승헌
+![대한상공회의소](https://img.shields.io/badge/대한상공회의소_서울기술교육센터-003366?style=flat&logo=git&logoColor=1E90FF)
+![과정: AI 시스템반도체설계 2기](https://img.shields.io/badge/과정-AI%20시스템반도체설계%202기-FFD700?style=flat&logo=github&logoColor=FFD700)
+![과목: Memory Controller SoC Peripheral 설계 프로젝트](https://img.shields.io/badge/과목-Memory%20Controller%20SoC%20Peripheral%20설계%20프로젝트-4CAF50?style=flat&logo=databricks&logoColor=white)
 
+![Verilog](https://img.shields.io/badge/Verilog-HDL-blue?style=flat&logo=verilog&logoColor=white)
+![SystemVerilog](https://img.shields.io/badge/SystemVerilog-HDL-00599C?style=flat&logo=verilog&logoColor=white)
+![MATLAB](https://img.shields.io/badge/MATLAB-MathWorks-orange?style=flat&logo=MathWorks&logoColor=white)
+![Synopsys Verdi](https://img.shields.io/badge/Synopsys-Verdi-663399?style=flat&logoColor=white)
+![Xilinx Vivado](https://img.shields.io/badge/Xilinx-Vivado-FCAE1E?style=flat&logo=xilinx&logoColor=white)
 
----
-
-## 🛠 Skills
-
-- C, Python, Verilog, System Verilog
-
----
-
-## 🚀 Projects
-
-- [STM32 드래곤 슈팅 게임](https://github.com/shhhhhhh1799/portfolio/blob/game/README.md)  
-  자동 발사 / 점수 / 레벨 / 배경음악이 포함된 STM32 기반 드래곤플라이트 스타일 2D 게임
-
-- [Verilog 기반 임베디드 시스템 통합 설계](https://github.com/shhhhhhh1799/portfolio/tree/uart_sensor_watch)  
-  Watch, Stopwatch, 거리측정, 온습도 표시 기능을 FPGA에서 통합 구현
-
-- [AI 수학 튜터 시스템](https://github.com/shhhhhhh1799/portfolio/tree/mathtutor)  
-  이미지/음성 입력 → 수식 분석 → 자연어 풀이 → 음성 출력까지 수행하는 AI 수학 도우미
-
----
-
-## 📫 Contact
-
-📧 **Email**: [ssssssh17@naver.com](mailto:ssssssh17@naver.com)
-
----
+## 프로젝트 주제: FFT 설계(7조)
+* 프로젝트 진행기간: 25.07.14 ~ 25.08.05
+## 팀명: 연식조(7조)
+* 구성원: 강석현(팀장), 문우진, 박승헌, 최지우
+---------------------------------------------------
+## Project Title: FFT Architecture(Team7)
+* Duration: 25.07.14 ~ 25.08.05
+## TEAM NAME: Team Classic(7th group)
+* MEMBERs: 강석현(TEAM LEADER), 문우진, 박승헌, 최지우
