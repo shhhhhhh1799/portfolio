@@ -10,10 +10,8 @@
 
 ## 프로젝트 주제: FFT 설계(7조)
 * 프로젝트 진행기간: 25.07.14 ~ 25.08.05
-## 팀명: 연식조(7조)
 * 구성원: 강석현(팀장), 문우진, 박승헌, 최지우
 ---------------------------------------------------
 ## Project Title: FFT Architecture(Team7)
 * Duration: 25.07.14 ~ 25.08.05
-## TEAM NAME: Team Classic(7th group)
 * MEMBERs: 강석현(TEAM LEADER), 문우진, 박승헌, 최지우
