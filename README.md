@@ -11,7 +11,37 @@
 ## 프로젝트 주제: FFT 설계(7조)
 * 프로젝트 진행기간: 25.07.14 ~ 25.08.05
 * 구성원: 강석현(팀장), 문우진, 박승헌, 최지우
----------------------------------------------------
-## Project Title: FFT Architecture(Team7)
-* Duration: 25.07.14 ~ 25.08.05
-* MEMBERs: 강석현(TEAM LEADER), 문우진, 박승헌, 최지우
+
+---
+
+## ⚙️ 사용 도구 및 환경
+
+- Verilog / SystemVerilog
+- Vivado (FPGA synthesis)
+- Verdi (시뮬레이션 파형 분석)
+- MATLAB (결과 비교 및 분석)
+- Synopsys VCS (시뮬레이션)
+- MobaXterm, GitHub, VS Code
+
+---
+
+## 🎯 프로젝트 목표
+
+> Fixed-point 기반 FFT를 RTL로 구현하고, FPGA에서 검증 가능한 구조로 개발한다.
+
+- 512-point FFT 구조 설계
+- Radix-2² 알고리즘 기반 파이프라인 구성
+- CBFP(Convergent Block Floating Point) 적용
+- MATLAB과 RTL 결과 비교 검증
+- FPGA(Vivado) 기반 검증 (Zynq-7000, UltraZed 등)
+
+---
+
+## 📊 결과 요약
+
+- 고정소수점 정확도 확보: <N.bit> 정밀도 구현
+- RTL & MATLAB 결과 100% 일치 검증
+- 시뮬레이션 파형 검증 완료
+- FFT Throughput 개선 및 자원 최적화
+
+---
